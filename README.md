@@ -4,10 +4,6 @@
 - [Overview](#overview)
 - [Technologies](#technologies)
 - [Setup](#setup)
-- [API Endpoints](#api-endpoints)
-- [Database Schema](#database-schema)
-- [Sample Outputs](#sample-outputs)
-- [Performance Metrics](#performance-metrics)
 
 ## Overview
 
@@ -24,3 +20,20 @@ This Inventory Management Service is a robust Spring Boot application designed t
 ## Setup
 
 1. Clone the repository:
+   ```bash
+   git clone https://github.com/s-a-n-j-a-y-s/lambda-inventory-service.git
+2. Navigate to the project directory
+3. Configure the database connection as per your need:
+   1. Navigate to `src/main/resources/application.properties`:
+   2. Change the datasource username and password:
+      ```properties
+      spring.datasource.url=jdbc:postgresql://localhost:5432/inventory
+      spring.datasource.username=your_username
+      spring.datasource.password=your_password
+      ```
+4. Spin up the application using maven:
+   ```bash
+   mvn spring-boot:run
+   ```      
+
+
