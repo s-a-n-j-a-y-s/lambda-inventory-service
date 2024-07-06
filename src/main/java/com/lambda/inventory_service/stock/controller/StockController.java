@@ -4,10 +4,5 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class TestController {
-
-    @GetMapping(value = "/test")
-    public String getTestString() {
-        return "Hello World! - I am LAMBDA, your inventory tracker!";
-    }
+public class StockController {
 }
