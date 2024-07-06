@@ -7,7 +7,7 @@
 
 ## Overview
 
-This Inventory Management Service is a robust Spring Boot application designed to efficiently track and manage inventory across multiple locations. It offers real-time updates, REST API endpoints, and integration with a PostgreSQL database for persistent storage.
+This Inventory Management Service is a robust Spring Boot application designed to efficiently track and manage inventory. It offers real-time updates, REST API endpoints, and integration with a PostgreSQL database for persistent storage.
 
 ## Technologies
 
