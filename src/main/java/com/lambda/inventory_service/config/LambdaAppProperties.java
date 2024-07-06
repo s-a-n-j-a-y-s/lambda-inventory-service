@@ -8,7 +8,6 @@ import org.springframework.stereotype.Component;
 @Component
 @ConfigurationProperties(prefix = "lambda")
 public class LambdaAppProperties {
-
     private String appName;
     private String appVersion;
 
