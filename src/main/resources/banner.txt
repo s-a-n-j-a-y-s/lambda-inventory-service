@@ -1,4 +1,5 @@
-${AnsiColor.GREEN}
+${AnsiColor.BRIGHT_MAGENTA}
+${AnsiStyle.BOLD}
     __                    __        __
    / /   ____ _____ ___  / /_  ____/ /___ _
   / /   / __ `/ __ `__ \/ __ \/ __  / __ `/
