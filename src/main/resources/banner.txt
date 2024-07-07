@@ -1,0 +1,10 @@
+${AnsiColor.GREEN}
+    __                    __        __
+   / /   ____ _____ ___  / /_  ____/ /___ _
+  / /   / __ `/ __ `__ \/ __ \/ __  / __ `/
+ / /___/ /_/ / / / / / / /_/ / /_/ / /_/ /
+/_____/\__,_/_/ /_/ /_/_.___/\__,_/\__,_/
+${AnsiColor.BRIGHT_BLUE}
+${AnsiStyle.BOLD}${lambda.app-name} ${lambda.app-version}
+${AnsiStyle.BOLD}Powered by Spring Boot ${spring-boot.version}
+${AnsiColor.DEFAULT}
